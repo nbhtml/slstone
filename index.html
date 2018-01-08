@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>盛磊石材</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bxslider.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/bxslider.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+
+<header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-9 col-md-9">
+      <a href="/"><img src="img/logo.png" class="logo" alt=""/></a>
+    </div>
+    <div id="topsearch" class="col-xs-12 col-sm-3 col-md-3">
+        <input type="hidden" name="kwtype" value="0" />
+        <div class="input-group search_group">
+          <input type="text" name="q" class="form-control input-sm" placeholder="在这里搜索">
+          <span class="input-group-btn"> <a href="javascript:;" class="btn btn-sm mysearch_btn" type="button">搜 索</a> </span>
+        </div>
+    </div>
+  </div>
+</div>
+  
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span id="small_search" class="glyphicon glyphicon-search" aria-hidden="true"></span>
+      <span class="glyphicon glyphicon-home home-btn" aria-hidden="true" onclick="location.href='/'" style="cursor: pointer"></span>
+      <a class="navbar-brand" href="/">导航菜单</a> 
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/">网站首页</a></li>
+        <li class="dropdown">
+          <a href="/a/about/">公司简介</a>
+          <a href="/a/about/" id="app_menudown" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            <span class="glyphicon glyphicon-menu-down btn-xs"></span>
+          </a>
+        </li>
+        <li class="dropdown">
+          <a href="/a/about/">公司简介</a>
+          <a href="/a/about/" id="app_menudown" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            <span class="glyphicon glyphicon-menu-down btn-xs"></span>
+          </a>
+        </li>
+        <li class="dropdown">
+          <a href="/a/about/">公司简介</a>
+          <a href="/a/about/" id="app_menudown" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            <span class="glyphicon glyphicon-menu-down btn-xs"></span>
+          </a>
+        </li>
+        <li class="dropdown">
+          <a href="/a/about/">公司简介</a>
+          <a href="/a/about/" id="app_menudown" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            <span class="glyphicon glyphicon-menu-down btn-xs"></span>
+          </a>
+        </li>
+        <li class="dropdown">
+          <a href="/a/about/">公司简介</a>
+          <a href="/a/about/" id="app_menudown" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            <span class="glyphicon glyphicon-menu-down btn-xs"></span>
+          </a>
+        </li>
+        <li class="dropdown">
+          <a href="/a/about/">公司简介</a>
+          <a href="/a/about/" id="app_menudown" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            <span class="glyphicon glyphicon-menu-down btn-xs"></span>
+          </a>
+        </li>
+        <li class="dropdown">
+          <a href="/a/about/">公司简介</a>
+          <a href="/a/about/" id="app_menudown" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            <span class="glyphicon glyphicon-menu-down btn-xs"></span>
+          </a>
+        </li>          
+      </ul>
+    </div>
+  </div>
+</nav>
+<script>
+$(document).ready(function() {
+	//下拉选中
+	$(".nav li .dropdown-menu").each(function(){
+		if ($(this).text().replace(/[\r\n ]/g,"").length<=0) {$(this).remove();} //ul
+	});
+});
+</script>
+</header>
+
+<div class="flash">
+  <ul class="bxslider">
+    <li><a href="javascript:;"><img src="img/01.jpg" /></a></li>
+    <li><a href="javascript:;"><img src="img/02.jpg" /></a></li>
+  </ul>   <!-- 大图轮播 -->
+</div>    
+<script>
+    $('.bxslider').bxSlider({
+      adaptiveHeight: true,
+      infiniteLoop: false,
+      hideControlOnEnd: true,
+      auto:true
+    });
+</script>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <h2 class="about_h2"><span>公司</span>简介</h2>
+      <p class="about_line"></p>
+      <p class="about_p">COMPANY PROFILE</p>
+      <section>
+          <p class="about_contents">牟平区盛磊石材有限公司是以石材矿山开采、石材加工、石材施工安装为一体的综合性专业石材公司。公司拥有高精度石材加工机械及配套齐全的辅助设备，有一批经验丰富的石材工艺加工、石材机械管理及石材工程现场施工、管理的专业人才。公司可根据用户不同的建筑结构、建筑部位及石材的不同规格、形状，采用不同的设计、生产方式，提供大块荒料、各种板材及各种异型石材。</p>
+          <a href="###" class="about_more">了解更多</a>
+      <section>
+    </div>
+  </div>
+</div>
+
+<div class="mouse_img"></div>   <!-- 鼠标小图标 -->
+
+<div class="case_bg">
+    <div class="container">    
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12"> 
+                <div class="index_case">
+                    <h2 class="about_h2"><span>客户</span>案例</h2>
+                    <p class="case_line"></p>
+                    <p class="case_p">CUSTOMER CASE</p>
+        					  <div class="case_list">
+        							<div class="col-sm-4 col-md-4 col-mm-6 case_img">
+                        <a href="###"><img src="img/li1.jpg" class="opacity_img" alt="保利茉莉公馆3"/></a>
+                        <div class="case_desc case_desc1";>
+                	        <h3>保利茉莉公馆3</h3>
+                	        <p>本案坐落于繁华市区的江景房，业主为年轻的海归人士，在尊重建筑结构的基础上，巧妙运用西方的理性结构．．．</p>
+                	        <div class="case_more"><a href="###">READ MORE</a></div>
+                        </div> 
+                      </div>
+                      <div class="col-sm-4 col-md-4 col-mm-6 case_img">
+                        <a href="###"><img src="img/li2.jpg" class="opacity_img" alt="保利茉莉公馆2"/></a>
+                        <div class="case_desc case_desc2";>
+                  	      <h3>保利茉莉公馆2</h3>
+                  	      <p>本案坐落于繁华市区的江景房，业主为年轻的海归人士，在尊重建筑结构的基础上，巧妙运用西方的理性结构．．．</p>
+                  	      <div class="case_more"><a href="###">READ MORE</a></div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4 col-md-4 col-mm-6 case_img">
+                        <a href="###"><img src="img/li3.png" class="opacity_img" alt="本案坐落于繁华市区的江景房，业主为年轻的海"/></a>
+                        <div class="case_desc case_desc3";>
+                    	    <h3>本案坐落于繁华市区的江景</h3>
+                    	    <p>本案坐落于繁华市区的江景房，业主为年轻的海归人士，在尊重建筑结构的基础上，巧妙运用西方的理性结构．．．</p>
+                    	    <div class="case_more"><a href="###">READ MORE</a></div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mouse_img"></div>    <!-- 鼠标小图标 -->
+
+<div class="container">    
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="index_product">
+                <h2 class="about_h2"><span>产品</span>展示</h2>
+                <p class="about_line"></p>
+                <p class="about_p">PRODUCT DISPLAY</p>
+                <div class="product_list">
+                  <div class="col-sm-4 col-md-3 col-mm-6 product_img">
+                    <a href="###"><img src="img/show1.jpg" style="width: 261px;height: 202px;" class="opacity_img" alt="产品测试发布二"></a>
+                    <p class="product_title"><a href="###" title="产品测试发布二">产品测试发布二</a></p>
+                  </div>
+                  <div class="col-sm-4 col-md-3 col-mm-6 product_img">
+                    <a href="###"><img src="img/show2.jpg" style="width: 261px;height: 202px;" class="opacity_img" alt="产品测试发布一"></a>
+                    <p class="product_title"><a href="###" title="产品测试发布一">产品测试发布一</a></p>
+                  </div>
+                  <div class="col-sm-4 col-md-3 col-mm-6 product_img">
+                    <a href="###"> <img src="img/show3.jpg" style="width: 261px;height: 202px;" class="opacity_img" alt="微单相机DMC-GF8XGK"></a>
+                    <p class="product_title"><a href="###" title="微单相机DMC-GF8XGK">微单相机DMC-GF8XGK</a></p>
+                  </div>
+                  <div class="col-sm-4 col-md-3 col-mm-6 product_img">
+                    <a href="###"> <img src="img/show4.jpg" style="width: 261px;height: 202px;" class="opacity_img" alt="高清电视TH-49C500C"></a>
+                    <p class="product_title"><a href="###" title="高清电视TH-49C500C">高清电视TH-49C500C</a></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mouse_img"></div>    <!-- 鼠标小图标 -->
+
+<div class="case_bg">
+    <div class="container">    
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12"> 
+                <div class="index_case">
+                    <h2 class="about_h2"><span>团队</span>介绍</h2>
+                    <p class="case_line"></p>
+                    <p class="case_p">TEAM INTRODUCTION</p>
+                    <div class="case_list">
+                			<div class="col-sm-4 col-md-4 col-mm-6 team_img">
+                          <a href="###"><img src="img/team1.jpg" class="opacity_img" alt="团队优秀设计师"/></a>
+                          <div class="team_desc">
+                          	<a href="###">团队优秀设计师</a>
+                          	<p>团队优秀设计师，</p>
+                          </div>
+                      </div>
+                      <div class="col-sm-4 col-md-4 col-mm-6 team_img">
+                          <a href="###"><img src="img/team2.jpg" class="opacity_img" alt="拓展训练"/></a>
+                          <div class="team_desc">
+                          	<a href="###">拓展训练</a>
+                          	<p>拓展训练拓展训练</p>
+                          </div>
+                      </div>
+                      <div class="col-sm-4 col-md-4 col-mm-6 team_img">
+                          <a href="###"><img src="img/team3.jpg" class="opacity_img" alt="金牌设计师"/></a>
+                          <div class="team_desc">
+                          	<a href="###">金牌设计师</a>
+                          	<p>活力总动员活力总</p>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">    
+  <div class="row">
+    <div class="left_nav index_left_nav" id="categories">
+      <h2 class="left_h2">导航栏目</h2>
+	  </div>
+  <div class="col-xs-12 col-sm-8 col-md-7">
+      <div class="news_box">
+          <h2 class="news_h2">新闻中心</h2>
+          <ul class="index_news">
+            <li><a href="###" title="官方确认《最终幻想15》9月">官方确认《最终幻想15》9月30日全球发售</a><span class='news_time'>2016-05-03</span></li>
+            <li><a href="###" title="Win10全息开发时代到来：微">Win10全息开发时代到来：微软开放HoloLens模拟器下</a><span class='news_time'>2016-03-31</span></li>
+            <li><a href="###" title="有钱任性：刘强东再花200">有钱任性：刘强东再花2000万为奶茶妹妹注册公司</a><span class='news_time'>2016-03-31</span></li>
+            <li><a href="###" title="Build2016首日：Win10年度更新">Build2016首日：Win10年度更新、人工智能Cortana横空</a><span class='news_time'>2016-03-31</span></li>
+            <li><a href="###" title="油价上涨激发勘探业石油钻">油价上涨激发勘探业石油钻探设备出</a><span class='news_time'>2016-03-30</span></li>
+          </ul>
+      </div>
+  </div>
+  <div class="col-xs-12 col-sm-4 col-md-5">    
+    <div class="index_contact">
+  		<h2 class="news_h2">联系我们</h2>
+  	    <p style="padding-top:28px;">   某某装修网</p>
+        <p>QQ ：123456789</p>
+        <p>电话：4008-888-888</p>
+        <p>邮箱：123456789@qq.com</p>
+        <p>地址：北京市北京区北京街666号</p>
+  	</div>
+  </div>
+  </div>
+</div>
+<footer>
+  <div class="copyright">
+    <p>Copyright &copy; 20017-2018 版权所有 某某某</p>
+    <p class="copyright_p">苏ICP12345678</p>
+  </div>
+</footer>
+</div>
+</body>
+</html>
+ 
